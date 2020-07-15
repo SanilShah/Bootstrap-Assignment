@@ -1,3 +1,10 @@
+h1 {
+  color: white;
+  text-shadow: 2px 2px 20px #000000; }
+
+h2 {
+  color: black; }
+
 .row-header {
   margin: 0px auto;
   padding: 0px 0px; }
@@ -6,18 +13,18 @@
   margin: 0px auto;
   padding: 50px 0px;
   border-bottom: 1px ridge;
-  min-height: 400px; }
+  min-height: 200px; }
 
 .footer {
-  background-color: #D1C4E9;
+  background-color: #99ff99;
   margin: 0px auto;
   padding: 20px 0px; }
 
 .jumbotron {
   margin: 0px auto;
-  padding: 70px 30px;
-  background: #9575CD;
-  color: floralwhite; }
+  padding: 30px 30px;
+  background: #ccff99;
+  color: black; }
 
 address {
   font-size: 80%;
@@ -29,7 +36,7 @@ body {
   z-index: 0; }
 
 .navbar-dark {
-  background-color: #512DA8; }
+  background-color: #009900; }
 
 .tab-content {
   border-left: 1px solid #ddd;
@@ -38,14 +45,17 @@ body {
   padding: 10px; }
 
 .carousel {
-  background: #512DA8; }
+  background: #009900; }
   .carousel .carousel-item {
     height: 300px; }
     .carousel .carousel-item img {
       position: absolute;
       top: 0;
       left: 0;
-      min-height: 300px; }
+      right: 0;
+      bottom: 0;
+      min-height: 300px;
+      min-width: 1200px; }
 
 #carouselButton {
   right: 0px;
@@ -54,19 +64,19 @@ body {
   z-index: 1; }
 
 #loginModal .modal-header {
-  background: #512DA8;
+  background: #009900;
   color: floralwhite; }
   #loginModal .modal-header .close {
     color: floralwhite; }
 
 #loginModal .modal-body {
-  background: #D1C4E9; }
+  background: #99ff99; }
 
 #reserveModal .modal-header {
-  background: #512DA8;
+  background: #009900;
   color: floralwhite; }
   #reserveModal .modal-header .close {
     color: floralwhite; }
 
 #reserveModal .modal-body {
-  background: #D1C4E9; }
+  background: #99ff99; }

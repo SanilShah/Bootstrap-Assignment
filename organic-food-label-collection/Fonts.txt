@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Snickles
+Author: Tup Wanders
+Url: http://www.fontsquirrel.com/fonts/snickles
+
+Font: Gilroy
+Author: Radomir Tinkov
+Url: https://www.fontsquirrel.com/fonts/gilroy

@@ -1,10 +1,19 @@
 $lt-gray: #ddd;
-$background-dark: #512DA8;
-$background-light: #9575CD;
-$background-pale: #D1C4E9;
+$background-dark:#009900;
+$background-light: #ccff99;
+$background-pale:#99ff99;
 
 // Height variables
 $carousel-item-height: 300px;
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 20px #000000;
+  }
+
+h2 {
+    color: black;
+  }
 
 @mixin zero-margin($pad-up-dn, $pad-left-right) {
 	margin:0px auto;
@@ -18,7 +27,7 @@ $carousel-item-height: 300px;
 .row-content {
     @include zero-margin(50px,0px);
     border-bottom: 1px ridge;
-    min-height:400px;
+    min-height:200px;
 }
 
 .footer{
@@ -27,9 +36,9 @@ $carousel-item-height: 300px;
 }
 
 .jumbotron {
-    @include zero-margin(70px,30px);
+    @include zero-margin(30px,30px);
     background: $background-light ;
-    color:floralwhite;
+    color:black;
 }
 
 address{
@@ -63,7 +72,10 @@ body{
             position: absolute;
             top: 0;
             left: 0;
+            right: 0;
+            bottom: 0;
             min-height: 300px;
+            min-width: 1200px;
         }
     }
 }
